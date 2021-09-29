@@ -10,17 +10,16 @@
 #-------------------------------------------------------
 
 #Function Definition :
-def function_with_return_value(name,number=12,members=0):
-  return(print(name+"'s","number is",number));
+def function_with_keyword_based_args(name,number=12,members=0):
+  print(name+"'s","number is : ",number);
 
 #Function Call :
-function_with_return_value(number=4,name="Happy");
-
+function_with_keyword_based_args(number=4,name="Happy");
 
 #Function Definition :
-def function_with_return_value(name,number):
-  return(print(name+"'s","number is",number));
+def function_with_keyword_based_args(name,number):
+  print(name+"'s","number is",number);
 
 #Function Call :
-function_with_return_value(number=7,name="Rose");
+function_with_keyword_based_args(number=7,name="Rose");
 
