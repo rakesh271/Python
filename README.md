@@ -3,7 +3,7 @@
 To run the python file :
 python3 file_name.py or python file_name.py
 
-Topics Covered in this Github:
+Topics Covered :
 1. Functions
 2. File handling
 3. Regular Expressions
